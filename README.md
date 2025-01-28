@@ -9,7 +9,7 @@ Welcome to **Copper Creations**, a website showcasing and selling unique handmad
 
 ## Live Demo
 Check out the live website:  
-👉 [https://Tsudhonihm.github.io/copper-creations/](https://Tsudhonihm.github.io/copper-creations/)
+👉 [https://Tsudhonihm.github.io/copper-creations/)(https://Tsudhonihm.github.io/copper-creations/)
 
 ## How to Use
 1. Clone this repository:
