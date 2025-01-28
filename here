@@ -1,0 +1,38 @@
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Handcrafted Penny Sculptures</h1>
+        <p>Transform your space with unique copper creations</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products" id="shop">
+        <h2>Featured Collections</h2>
+        <div class="product-grid">
+            <!-- Product Cards Go Here -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Copper Creations</h2>
+        <p>Hi, I'm [Your Name], a passionate artist creating unique penny sculptures since [Year]. Each piece is handcrafted with care and precision.</p>
+        <a href="about.html" class="btn">Learn More</a>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            "Absolutely stunning! The craftsmanship is incredible."
+            <cite>– Happy Customer</cite>
+        </blockquote>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta">
+        <h2>Ready to Transform Your Space?</h2>
+        <a href="#shop" class="btn">Shop Now</a>
+    </section>
+</main>
