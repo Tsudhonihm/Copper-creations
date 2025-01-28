@@ -9,5 +9,5 @@ Welcome to **Copper Creations**, a website showcasing and selling unique handmad
 
 ## Live Demo
 Check out the live website:  
-👉 https://tsudhonihm.github.io/Copper-creations/ 
+👉 [(https://tsudhonihm.github.io/Copper-creations/)] 
 
