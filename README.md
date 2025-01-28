@@ -1,4 +1,4 @@
-# Copper Creations - Penny Sculptures Website
+# Copper Creations - Penny Sculpture Website
 
 Welcome to **Copper Creations**, a website showcasing and selling unique handmade penny sculptures. This project is built with HTML and CSS, featuring a modern, responsive design.
 
