@@ -1,65 +1,9 @@
-from flask import Flask, render_template_string
-
-app = Flask(__name__)
-
-html_content = """
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Content</title>
-    <style>
-        [data-custom-class='body'], [data-custom-class='body'] * {
-            background: transparent !important;
-        }
-        [data-custom-class='title'], [data-custom-class='title'] * {
-            font-family: Arial !important;
-            font-size: 26px !important;
-            color: #000000 !important;
-        }
-        [data-custom-class='subtitle'], [data-custom-class='subtitle'] * {
-            font-family: Arial !important;
-            color: #595959 !important;
-            font-size: 14px !important;
-        }
-        [data-custom-class='heading_1'], [data-custom-class='heading_1'] * {
-            font-family: Arial !important;
-            font-size: 19px !important;
-            color: #000000 !important;
-        }
-        [data-custom-class='heading_2'], [data-custom-class='heading_2'] * {
-            font-family: Arial !important;
-            font-size: 17px !important;
-            color: #000000 !important;
-        }
-        [data-custom-class='body_text'], [data-custom-class='body_text'] * {
-            color: #595959 !important;
-            font-size: 14px !important;
-            font-family: Arial !important;
-        }
-        [data-custom-class='link'], [data-custom-class='link'] * {
-            color: #3030F1 !important;
-            font-size: 14px !important;
-            font-family: Arial !important;
-            word-break: break-word !important;
-        }
-    </style>
-</head>
-<body>
-    <div data-custom-class="body">
-        <h1 data-custom-class="title">Example Title</h1>
-        <h2 data-custom-class="subtitle">Subtitle Here</h2>
-        <p data-custom-class="body_text">This is a sample paragraph with custom styling.</p>
-        <a data-custom-class="link" href="https://example.com">Visit Example</a>
-    </div>
-</body>
-</html>
-"""
-
-@app.route("/")
-def home():
-    return render_template_string(html_content)
-
-if __name__ == "__main__":
-    app.run(debug=True)
+from openai import OpenAI
+client = OpenAI()
+completion = client.chat.completions.create(
+    model="gpt-4o",
+    store=True,
+    messages=[
+        {"role": "user", "content": "write a haiku about ai"}
+    ]
+)
